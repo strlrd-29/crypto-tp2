@@ -55,7 +55,7 @@ After finishing, it is important to close the connection by closing the socket a
 
 ### Important Points
 
-- Server application makes a ServerSocket on a specific port which is 5000. This starts our Server listening for client requests coming in for port 5000.
+- Server application makes a ServerSocket on a specific port which is 8080. This starts our Server listening for client requests coming in for port 8080.
 
 - Then Server makes a new Socket to communicate with the client.
 
@@ -68,3 +68,4 @@ socket = server.accept()
 - Our Server keeps receiving messages until the Client sends “Over”.
 - After we’re done we close the connection by closing the socket and the input stream.
 - To run the Client and Server application on your machine, compile both of them. Then first run the server application and then run the Client application.
+
